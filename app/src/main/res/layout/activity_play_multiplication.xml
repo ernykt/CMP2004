@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/calculator"/>
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICATON GAME"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_marginTop="300dp"
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/questionTextView"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:minWidth="48dp"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check"
+        android:layout_below="@id/answerEditText"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkButton"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

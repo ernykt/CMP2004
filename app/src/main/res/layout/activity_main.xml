@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <include
+                layout="@layout/toolbar" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/toolbar">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:overScrollMode="never"
+                    android:scrollbars="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnMonths"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="127dp"
+                                android:layout_height="146dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/date" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Click to Learn Months"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:id="@+id/learnDays"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="127dp"
+                                android:layout_height="145dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/week" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Click to Learn Days"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnWeather"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="129dp"
+                                android:layout_height="162dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/weather" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Learn Weathers"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnDirections"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="129dp"
+                                android:layout_height="163dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/directions" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Learn Directions"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnSpelling"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="129dp"
+                                android:layout_height="163dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/spelling" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Learn Spelling"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnMultiplication"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="129dp"
+                                android:layout_height="163dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/multiplication" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Learn Multiplication"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/learnClock"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="129dp"
+                                android:layout_height="163dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/clock" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="Learn Clock"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+
+                        <!-- Add more CardViews as needed -->
+
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="@color/white">
+
+            <include
+                layout="@layout/nav_drawer" />
+
+        </RelativeLayout>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

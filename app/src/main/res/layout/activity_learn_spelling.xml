@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="LEARN HOW TO SPELL"
+            android:textSize="42sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/spell2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Split up each letter sound in the word to help you hear them."
+            android:textSize="24sp"
+            android:textStyle="italic">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/spell3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Divide a big word into smaller words, syllables or parts."
+            android:textSize="24sp"
+            android:textStyle="italic">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/spell1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Notice whether the word has a suffix."
+            android:textSize="24sp"
+            android:textStyle="italic">
+        </TextView>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/spell5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="18dp"
+            android:text="Spell out each part of the word, and then put them all together."
+            android:textSize="24sp"
+            android:textStyle="italic">
+        </TextView>
+
+    </LinearLayout>
+
+</ScrollView>

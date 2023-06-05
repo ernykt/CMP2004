@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="ball_size">50dp</dimen>
+    <dimen name="ball_margin_top">16dp</dimen>
+</resources>

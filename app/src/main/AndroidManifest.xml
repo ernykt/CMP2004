@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.2004Project"
+        tools:targetApi="31">
+        <activity
+            android:name=".RememberBackwardsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnClockActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnMultiplicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnSpellingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnDirectionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnWeatherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayMatchingCardActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayMultiplicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RememberNumbersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnDaysActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LearnMonthsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FollowBallActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShareActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PlayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
