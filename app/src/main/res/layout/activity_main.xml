@@ -57,7 +57,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Click to Learn Months"
+                                android:text="Learn Months"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -85,7 +85,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Click to Learn Days"
+                                android:text="Learn Days"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -112,7 +112,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Weathers"
+                                android:text="Learn Seasons"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />

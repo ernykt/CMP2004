@@ -7,7 +7,10 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -15,10 +18,12 @@ import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 
+import java.util.Locale;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     DrawerLayout drawerLayout;
     ImageView menu;
-    LinearLayout home,settings,share,logout;
+    LinearLayout home,settings,share,logout,language;
 
     private CardView D1 = null;
     private CardView D2 = null;
@@ -64,8 +69,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         logout = findViewById(R.id.logout);
         settings = findViewById(R.id.settings);
         share = findViewById(R.id.Share);
+        language= findViewById(R.id.Language);
 
         menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openDrawer(drawerLayout);
+            }
+        });
+        language.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openDrawer(drawerLayout);
@@ -97,6 +109,44 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 redirectActivity(MainActivity.this,SignInActivity.class);
             }
         });
+        language.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Change the language here
+                changeLanguage();
+                // Show a toast indicating the language change
+                Toast.makeText(MainActivity.this, "Language Changed", Toast.LENGTH_SHORT).show();
+                // Recreate the activity to reflect the language change
+                recreate();
+            }
+        });
+    }
+    private void changeLanguage() {
+        // Get the current locale
+        Locale currentLocale = getResources().getConfiguration().locale;
+
+        // Check the current language and set the new language
+        if (currentLocale.getLanguage().equals("tr")) {
+            // If current language is Turkish, set English as the new language
+            setLocale("en");
+        } else {
+            // If current language is English, set Turkish as the new language
+            setLocale("tr");
+        }
+    }
+
+    private void setLocale(String languageCode) {
+        // Create a new Locale object with the desired language code
+        Locale newLocale = new Locale(languageCode);
+
+        // Update the app's configuration with the new Locale
+        Resources resources = getResources();
+        Configuration configuration = resources.getConfiguration();
+        configuration.setLocale(newLocale);
+
+        // Update the app's resources with the new configuration
+        DisplayMetrics displayMetrics = resources.getDisplayMetrics();
+        resources.updateConfiguration(configuration, displayMetrics);
     }
     public static void openDrawer(DrawerLayout drawerLayout){
         drawerLayout.openDrawer(GravityCompat.START);

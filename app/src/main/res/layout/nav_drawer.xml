@@ -79,6 +79,23 @@
             android:textColor="@color/lavender"
             android:textSize="20sp" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Language"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/baseline_language_24"
+            android:drawablePadding="8dp"
+            android:text="Change Language"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+    </LinearLayout>
 
     <View
         android:layout_width="match_parent"

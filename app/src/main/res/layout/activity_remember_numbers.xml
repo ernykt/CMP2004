@@ -15,6 +15,21 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:visibility="gone" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:text="REMEMBER THE NUMBERS"
+        android:layout_marginBottom="75dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:src="@drawable/numbers"
+        android:layout_marginBottom="50dp"/>
+
 
     <EditText
         android:id="@+id/numberInput"

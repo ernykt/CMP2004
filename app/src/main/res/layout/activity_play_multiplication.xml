@@ -37,7 +37,9 @@
         android:layout_marginTop="16dp"
         android:inputType="number"
         android:minWidth="48dp"
-        android:minHeight="48dp" />
+        android:minHeight="48dp"
+        android:layout_centerHorizontal="true"
+        />
 
     <Button
         android:id="@+id/checkButton"

@@ -6,12 +6,13 @@
     tools:context="FollowBallActivity">
 
     <ImageView
+        android:layout_marginTop="20dp"
         android:id="@+id/ballImageView"
         android:layout_width="64dp"
         android:layout_height="64dp"
+        android:src="@drawable/baby"
         android:contentDescription="ball"
-        android:scaleType="centerCrop"
-        android:src="@drawable/baby" />
+        android:scaleType="centerCrop" />
 
     <TextView
         android:id="@+id/score_text_view"
