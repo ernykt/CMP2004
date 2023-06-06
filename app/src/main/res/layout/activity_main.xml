@@ -57,7 +57,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Months"
+                                android:text="@string/learn_the_months"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -85,7 +85,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Days"
+                                android:text="@string/learn_the_days"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -112,7 +112,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Seasons"
+                                android:text="@string/learn_the_seasons"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -139,7 +139,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Directions"
+                                android:text="@string/learn_the_directions"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -166,7 +166,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Spelling"
+                                android:text="@string/learn_the_spelling"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -193,7 +193,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Multiplication"
+                                android:text="@string/learn_the_multiplication"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -220,7 +220,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Learn Clock"
+                                android:text="@string/learn_the_clock"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />

@@ -17,7 +17,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="CMP2004 PROJECT"
+        android:text="@string/cmp2004_project"
         android:textSize="20dp"
         android:layout_margin="12dp"
         android:textColor="@color/white"/>

@@ -27,6 +27,8 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
     private CardView D4 = null;
     private CardView D5 = null;
 
+    private CardView D6 = null;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,6 +41,7 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
         D3 = findViewById(R.id.multiplication);
         D4 = findViewById(R.id.matchingGame);
         D5 = findViewById(R.id.rememberBackwards);
+        D6 = findViewById(R.id.spellingGame);
 
 
 
@@ -49,6 +52,7 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
         D3.setOnClickListener(this);
         D4.setOnClickListener(this);
         D5.setOnClickListener(this);
+        D6.setOnClickListener(this);
 
         drawerLayout = findViewById(R.id.drawerLayout);
         menu = findViewById(R.id.menu);
@@ -126,6 +130,9 @@ public class PlayActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.rememberBackwards:
                 i = new Intent(this, RememberBackwardsActivity.class);
+                break;
+            case R.id.spellingGame:
+                i = new Intent(this, PlaySpellingActivity.class);
                 break;
             default:
                 throw new IllegalArgumentException("Unhandled view ID: " + v.getId());

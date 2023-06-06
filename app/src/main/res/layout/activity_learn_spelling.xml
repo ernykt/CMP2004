@@ -13,7 +13,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="LEARN HOW TO SPELL"
+            android:text="@string/learn_how_to_spell"
             android:textSize="42sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal">
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Split up each letter sound in the word to help you hear them."
+            android:text="@string/split_up_each_letter_sound_in_the_word_to_help_you_hear_them"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Divide a big word into smaller words, syllables or parts."
+            android:text="@string/divide_a_big_word_into_smaller_words_syllables_or_parts"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Notice whether the word has a suffix."
+            android:text="@string/notice_whether_the_word_has_a_suffix"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Spell out each part of the word, and then put them all together."
+            android:text="@string/spell_out_each_part_of_the_word_and_then_put_them_all_together"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>

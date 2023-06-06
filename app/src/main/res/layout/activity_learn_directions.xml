@@ -15,7 +15,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="30dp"
-            android:text="LEARN DIRECTIONS"
+            android:text="@string/learn_directions"
             android:textSize="42sp"
             android:textStyle="bold">
         </TextView>
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Do you know the directions ?"
+            android:text="@string/do_you_know_the_directions"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="Let's look at some basic prepositions"
+            android:text="@string/let_s_look_at_some_basic_prepositions"
             android:textSize="24sp"
             android:textStyle="italic"/>
         <ImageView

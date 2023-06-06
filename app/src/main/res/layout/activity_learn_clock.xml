@@ -13,7 +13,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="ANALOG CLOCK"
+            android:text="@string/analog_clock"
             android:textSize="42sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal">
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="How to read analog clock ?"
+            android:text="@string/how_to_read_analog_clock"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -49,7 +49,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="DIGITAL CLOCK"
+            android:text="@string/digital_clock"
             android:textSize="42sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal">
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:layout_marginStart="18dp"
-            android:text="How to read digital clock ?"
+            android:text="@string/how_to_read_digital_clock"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>

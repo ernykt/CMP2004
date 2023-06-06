@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textSize="40sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
-            android:hint="E-mail" />
+            android:hint="@string/e_mail" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:inputType="textPassword"
-            android:hint="Password" />
+            android:hint="@string/password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
@@ -78,7 +78,7 @@
             android:layout_height="wrap_content"
             android:background="@android:color/transparent"
             android:inputType="textPassword"
-            android:hint="Confirm your password" />
+            android:hint="@string/confirm_your_password" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:backgroundTint="@android:color/transparent"
-        android:text="Already have an account?"
+        android:text="@string/already_have_an_account"
         android:textColor="@android:color/holo_blue_dark"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -100,7 +100,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

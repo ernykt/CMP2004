@@ -14,7 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="LEARN SEASONS"
+            android:text="@string/learn_seasons"
             android:textSize="42sp"
             android:textStyle="bold"
             android:layout_gravity="center_horizontal"
@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:layout_marginStart="18dp"
-            android:text="Check out the seasons !"
+            android:text="@string/check_out_the_seasons"
             android:textSize="24sp"
             android:textStyle="italic">
         </TextView>
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="518dp"
             android:layout_marginTop="30dp"
-            android:src="@drawable/learns" />
+            android:src="@drawable/learnseasons" />
     </LinearLayout>
 
 </ScrollView>

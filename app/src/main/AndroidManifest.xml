@@ -12,6 +12,9 @@
         android:theme="@style/Theme.2004Project"
         tools:targetApi="31">
         <activity
+            android:name=".PlaySpellingActivity"
+            android:exported="false" />
+        <activity
             android:name=".RememberBackwardsActivity"
             android:exported="false" />
         <activity

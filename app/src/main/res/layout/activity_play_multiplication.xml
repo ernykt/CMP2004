@@ -15,7 +15,7 @@
         android:layout_marginTop="200dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MULTIPLICATON GAME"
+        android:text="@string/multiplicaton_game"
         android:textStyle="bold"
         android:textSize="32sp"
         android:layout_centerHorizontal="true"
@@ -45,7 +45,7 @@
         android:id="@+id/checkButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Check"
+        android:text="@string/check_answer"
         android:layout_below="@id/answerEditText"
         android:layout_centerHorizontal="true"/>
 

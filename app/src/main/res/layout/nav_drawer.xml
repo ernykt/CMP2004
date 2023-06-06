@@ -19,13 +19,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="CMP2004 PROJECT"
+            android:text="@string/cmp2004_project"
             android:textStyle="bold"
             android:textColor="@color/white"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Project-1"
+            android:text="@string/project_1"
             android:textColor="@color/white"
             android:textSize="14sp"
             android:layout_marginBottom="16dp"/>
@@ -41,7 +41,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/lavender"
-            android:text="Learn"
+            android:text="@string/learn"
             android:textSize="20sp"
             android:drawableLeft="@drawable/baseline_menu_book_24"
             android:drawablePadding="8dp"/>
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/lavender"
-            android:text="Play"
+            android:text="@string/play"
             android:textSize="20sp"
             android:drawableLeft="@drawable/baseline_play_circle_24"
             android:drawablePadding="8dp"/>
@@ -75,7 +75,7 @@
             android:layout_height="match_parent"
             android:drawableLeft="@drawable/baseline_share_24"
             android:drawablePadding="8dp"
-            android:text="Share"
+            android:text="@string/share"
             android:textColor="@color/lavender"
             android:textSize="20sp" />
     </LinearLayout>
@@ -92,7 +92,7 @@
             android:layout_height="match_parent"
             android:drawableLeft="@drawable/baseline_language_24"
             android:drawablePadding="8dp"
-            android:text="Change Language"
+            android:text="@string/change_language"
             android:textColor="@color/lavender"
             android:textSize="20sp" />
     </LinearLayout>
@@ -113,7 +113,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/lavender"
-            android:text="Logout"
+            android:text="@string/logout"
             android:textSize="20sp"
             android:drawableLeft="@drawable/baseline_exit_to_app_24"
             android:drawablePadding="8dp"/>

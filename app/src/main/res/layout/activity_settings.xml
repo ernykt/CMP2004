@@ -57,7 +57,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Follow The Ball"
+                                android:text="@string/follow_the_ball"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -85,7 +85,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Remember Numbers"
+                                android:text="@string/remember_numbers"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -113,7 +113,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Play Multiplication"
+                                android:text="@string/play_multiplication"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -141,7 +141,7 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Match the images"
+                                android:text="@string/match_the_images"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
@@ -168,7 +168,34 @@
                                 android:layout_height="match_parent"
                                 android:layout_gravity="center"
                                 android:paddingLeft="1.1in"
-                                android:text="Remember Numbers Backwards"
+                                android:text="@string/remember_numbers_backwards"
+                                android:textColor="@color/purple_700"
+                                android:textSize="23sp"
+                                android:textStyle="bold" />
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/spellingGame"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            app:cardBackgroundColor="@color/white"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="5dp">
+
+                            <ImageView
+                                android:layout_width="130dp"
+                                android:layout_height="138dp"
+                                android:layout_margin="5dp"
+                                android:background="@color/white"
+                                android:elevation="3dp"
+                                android:src="@drawable/spelling" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:paddingLeft="1.1in"
+                                android:text="@string/play_spelling"
                                 android:textColor="@color/purple_700"
                                 android:textSize="23sp"
                                 android:textStyle="bold" />
